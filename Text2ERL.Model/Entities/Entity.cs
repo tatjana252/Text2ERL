@@ -1,5 +1,6 @@
 ﻿using Text2ERL.Model.Constraints;
-using Attribute = System.Attribute;
+using Attribute = Text2ERL.Model.Attributes.Attribute;
+
 
 namespace Text2ERL.Model.Entities
 {

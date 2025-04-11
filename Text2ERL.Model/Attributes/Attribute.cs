@@ -6,6 +6,7 @@ namespace Text2ERL.Model.Attributes
     public class Attribute
     {
         public string Name { get; set; }
+        public bool IsIdentifier { get; set; }
         public PredefinedType Type { get; set; }
         public Constraint Constraint { get; set; }
     }
