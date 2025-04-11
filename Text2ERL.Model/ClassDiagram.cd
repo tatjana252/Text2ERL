@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Text2ERL.Model.Attributes.Attribute" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>Attributes\Attribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Constraints.Constraint" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Entities.Aggregation">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Entity.Aggregation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Entities.Entity">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Entities.WeakEntity">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Entity.WeakEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Relation">
+    <Position X="5" Y="4" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Text2ERL.Model.Relation.CardinalityBound" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Relations\Relation.CardinalityBound.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Text2ERL.Model.Relation.Mapping" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Relations\Relation.Mapping.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAgAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Relations\Relation.CardinalityBound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.WeakRelation">
+    <Position X="8" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Relations\Relation.WeakRelation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Relations.GeneralizationSpecialization">
+    <Position X="8" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAABAAAAAAAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Relations\Specialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text2ERL.Model.Types.PredefinedType" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Types\PredefinedType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.36" />
+  </Class>
+  <Class Name="Text2ERL.Model.Types.SemanticType" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Types\SemanticType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.149" />
+  </Class>
+  <Class Name="Text2ERL.Model.ERLModel">
+    <Position X="2.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAEAAAIAAAA=</HashCode>
+      <FileName>ERLModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Text2ERL.Model.Types.IType">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\IType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Text2ERL.Model.Types.PredefinedTypes" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAgQAAAACAAAAAAACQBAAAACAAAASA=</HashCode>
+      <FileName>Types\PredefinedType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
